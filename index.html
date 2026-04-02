@@ -1,126 +1,169 @@
 <!DOCTYPE html>
 <!-- saved from url=(0243)https://credit.hti-o.edu.eg/portalRegisteration?item=Desires&token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdHVkZW50X2lkIjoyMzgsInVuaXZlcnNpdHlfaWQiOiIxMzAwLiIsImxhbmciOiJhciIsImV4cCI6MTc3NTA5MDIzNn0.qEjFmxlUjdtAmgrIJguOsi_s-wHtXOvY7Wr9hBA2yus -->
-<html lang="ar" class=" js flexbox canvas canvastext webgl no-touch geolocation postmessage no-websqldatabase no-indexeddb hashchange history draganddrop websockets rgba hsla multiplebgs backgroundsize borderimage borderradius boxshadow textshadow opacity cssanimations csscolumns cssgradients cssreflections csstransforms csstransforms3d csstransitions fontface video audio localstorage sessionstorage webworkers no-applicationcache svg inlinesvg smil svgclippaths"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
- <!--amira-->
-<link href="./SIS system_files/jquery-ui-1.8.23.custom.css" media="screen,projection,print" rel="stylesheet" type="text/css">
-<link href="./SIS system_files/jquery.alerts.css" media="screen,projection,print" rel="stylesheet" type="text/css">
-<link href="./SIS system_files/uniform.aristo.css" media="screen,projection,print" rel="stylesheet" type="text/css">
-<link href="./SIS system_files/common.css" rel="stylesheet" type="text/css">
-<link href="./SIS system_files/ui.multiselect.css" rel="stylesheet" type="text/css">
-<link href="./SIS system_files/style1.css" rel="stylesheet">
-<link href="./SIS system_files/colors.css" rel="stylesheet">
-<title id="title">SIS system</title>
-<link href="./SIS system_files/css.css" rel="stylesheet" type="text/css">
-<script src="./SIS system_files/modernizr-1.7.min.js.download"></script>
-<script src="./SIS system_files/jquery-1.6.4.min.js.download" type="text/javascript"></script>
-<script charset="UTF-8" src="./SIS system_files/json2.js.download" type="text/javascript"></script>
-<script src="./SIS system_files/jquery.blockUI.js.download" type="text/javascript"></script>
-<script charset="UTF-8" src="./SIS system_files/jquery.alerts.js.download" type="text/javascript"></script>
-<script src="./SIS system_files/jquery.validate-min.js.download" type="text/javascript"></script>
-<script src="./SIS system_files/jquery-ui-1.8.23.custom.min.js.download" type="text/javascript"></script>
-<script src="./SIS system_files/jquery.uniform.min.js.download" type="text/javascript"></script>
-<script src="./SIS system_files/ui.multiselect.js.download" type="text/javascript"></script>
-<script src="./SIS system_files/jquery.MultiFile.js.download" type="text/javascript"></script>
-<!--&lt;!&ndash; jQuery Modal &ndash;&gt;-->
-<script src="./SIS system_files/jquery.modal.min.js.download"></script>
-<script type="text/javascript" src="./SIS system_files/cardDesign.js.download"></script>
-<link href="./SIS system_files/jquery.modal.min.css" rel="stylesheet">
-<style>
-body {
-display: inline-block;
-}
-td {
-vertical-align: top;
-white-space: nowrap;
-}
-th {
-text-align: center !important;
-}
-.TdLabel {
-padding: 2px;
-}
-input {
-padding: 3px;
-margin: 3px
-}
-.error {
-color: red;
-}
-Button {
-display: inline;
-margin: 0 7px 0 0;
-background-color: #eeeeee;
-border: 1px solid #a2aeb9;
-font-family: Arial, Verdana, sans-serif;
-text-decoration: none;
-font-weight: bold;
-cursor: pointer;
-line-height: 100%;
-padding: 5px 5px 3px 5px;
-font-size: 11pt;
-color: #336699;
-border-radius: 5px;
-text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.15);
-box-shadow: 0 0 0 1px #0086ba inset, /* Outer bevel */ 0 0 0 1px #6cdcea inset, /* Inner bevel */ /*0 0 0 2px #6cdcea inset, Inner bevel gives more highlight*/ 0 30px 20px -18px rgba(255, 255, 255, 0.65) inset, /* Inner gradient */ 1px 1px 1px rgba(0, 0, 0, 0.2) /* Drop shadow */;
--webkit-border-radius: 5px;
--webkit-text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.15);
--webkit-box-shadow: 0 0 0 1px #0086ba inset, /* Outer bevel */ 0 0 0 1px #6cdcea inset, /* Inner bevel */ 0 30px 20px -18px rgba(255, 255, 255, 0.65) inset, /* Inner gradient */ 1px 1px 1px rgba(0, 0, 0, 0.2) /* Drop shadow */;
-}
-option {
-background-color: #d3d3d3;
-font-size: 13pt;
-}
-Button:hover {
-background-color: #839ea5;
-color: white;
-}
-.stimeTabletd {
-border-width: 3px;
-padding: 1px;
-border-style: 1px;
-border-color: blue;
-vertical-align: middle;
-background-color: #FFFFFF;
-}
-.ui-tabs-panel {
-max-height: 200px;
-overflow: auto;
-}
-#CoursesTableForm td, #CoursesTableForm th {
-white-space: normal;
-}
-.tblRegCrs td, .tblRegCrs th {
-border: thin solid rgb(196, 221, 231);
-margin-left: auto;
-margin-right: auto;
-padding: 3px;
-}
-#studentBasic .TdData {
-min-width: 3ex;
-}
-#printDiv td {
-border-collapse: collapse;
-}
-.secondaryDegreesTbl td {
-padding: 5px;
-}
-.ui-autocomplete {
-max-height: 200px;
-overflow-y: auto;
-/* prevent horizontal scrollbar */
-overflow-x: hidden;
-/* add padding to account for vertical scrollbar */
-padding-right: 20px;
-}
-</style>
+<html lang="ar"
+  class=" js flexbox canvas canvastext webgl no-touch geolocation postmessage no-websqldatabase no-indexeddb hashchange history draganddrop websockets rgba hsla multiplebgs backgroundsize borderimage borderradius boxshadow textshadow opacity cssanimations csscolumns cssgradients cssreflections csstransforms csstransforms3d csstransitions fontface video audio localstorage sessionstorage webworkers no-applicationcache svg inlinesvg smil svgclippaths">
 
-<link rel="stylesheet" href="./SIS system_files/mail.css" type="text/css" media="screen"><link rel="stylesheet" href="./SIS system_files/jquery.tagedit.css" type="text/css" media="screen"></head>
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <!--amira-->
+  <link href="./SIS system_files/jquery-ui-1.8.23.custom.css" media="screen,projection,print" rel="stylesheet"
+    type="text/css">
+  <link href="./SIS system_files/jquery.alerts.css" media="screen,projection,print" rel="stylesheet" type="text/css">
+  <link href="./SIS system_files/uniform.aristo.css" media="screen,projection,print" rel="stylesheet" type="text/css">
+  <link href="./SIS system_files/common.css" rel="stylesheet" type="text/css">
+  <link href="./SIS system_files/ui.multiselect.css" rel="stylesheet" type="text/css">
+  <link href="./SIS system_files/style1.css" rel="stylesheet">
+  <link href="./SIS system_files/colors.css" rel="stylesheet">
+  <title id="title">SIS system</title>
+  <link href="./SIS system_files/css.css" rel="stylesheet" type="text/css">
+  <script src="./SIS system_files/modernizr-1.7.min.js.download"></script>
+  <script src="./SIS system_files/jquery-1.6.4.min.js.download" type="text/javascript"></script>
+  <script charset="UTF-8" src="./SIS system_files/json2.js.download" type="text/javascript"></script>
+  <script src="./SIS system_files/jquery.blockUI.js.download" type="text/javascript"></script>
+  <script charset="UTF-8" src="./SIS system_files/jquery.alerts.js.download" type="text/javascript"></script>
+  <script src="./SIS system_files/jquery.validate-min.js.download" type="text/javascript"></script>
+  <script src="./SIS system_files/jquery-ui-1.8.23.custom.min.js.download" type="text/javascript"></script>
+  <script src="./SIS system_files/jquery.uniform.min.js.download" type="text/javascript"></script>
+  <script src="./SIS system_files/ui.multiselect.js.download" type="text/javascript"></script>
+  <script src="./SIS system_files/jquery.MultiFile.js.download" type="text/javascript"></script>
+  <!--&lt;!&ndash; jQuery Modal &ndash;&gt;-->
+  <script src="./SIS system_files/jquery.modal.min.js.download"></script>
+  <script type="text/javascript" src="./SIS system_files/cardDesign.js.download"></script>
+  <link href="./SIS system_files/jquery.modal.min.css" rel="stylesheet">
+  <style>
+    body {
+      display: inline-block;
+    }
+
+    td {
+      vertical-align: top;
+      white-space: nowrap;
+    }
+
+    th {
+      text-align: center !important;
+    }
+
+    .TdLabel {
+      padding: 2px;
+    }
+
+    input {
+      padding: 3px;
+      margin: 3px
+    }
+
+    .error {
+      color: red;
+    }
+
+    Button {
+      display: inline;
+      margin: 0 7px 0 0;
+      background-color: #eeeeee;
+      border: 1px solid #a2aeb9;
+      font-family: Arial, Verdana, sans-serif;
+      text-decoration: none;
+      font-weight: bold;
+      cursor: pointer;
+      line-height: 100%;
+      padding: 5px 5px 3px 5px;
+      font-size: 11pt;
+      color: #336699;
+      border-radius: 5px;
+      text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.15);
+      box-shadow: 0 0 0 1px #0086ba inset,
+        /* Outer bevel */
+        0 0 0 1px #6cdcea inset,
+        /* Inner bevel */
+        /*0 0 0 2px #6cdcea inset, Inner bevel gives more highlight*/
+        0 30px 20px -18px rgba(255, 255, 255, 0.65) inset,
+        /* Inner gradient */
+        1px 1px 1px rgba(0, 0, 0, 0.2)
+        /* Drop shadow */
+      ;
+      -webkit-border-radius: 5px;
+      -webkit-text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.15);
+      -webkit-box-shadow: 0 0 0 1px #0086ba inset,
+        /* Outer bevel */
+        0 0 0 1px #6cdcea inset,
+        /* Inner bevel */
+        0 30px 20px -18px rgba(255, 255, 255, 0.65) inset,
+        /* Inner gradient */
+        1px 1px 1px rgba(0, 0, 0, 0.2)
+        /* Drop shadow */
+      ;
+    }
+
+    option {
+      background-color: #d3d3d3;
+      font-size: 13pt;
+    }
+
+    Button:hover {
+      background-color: #839ea5;
+      color: white;
+    }
+
+    .stimeTabletd {
+      border-width: 3px;
+      padding: 1px;
+      border-style: 1px;
+      border-color: blue;
+      vertical-align: middle;
+      background-color: #FFFFFF;
+    }
+
+    .ui-tabs-panel {
+      max-height: 200px;
+      overflow: auto;
+    }
+
+    #CoursesTableForm td,
+    #CoursesTableForm th {
+      white-space: normal;
+    }
+
+    .tblRegCrs td,
+    .tblRegCrs th {
+      border: thin solid rgb(196, 221, 231);
+      margin-left: auto;
+      margin-right: auto;
+      padding: 3px;
+    }
+
+    #studentBasic .TdData {
+      min-width: 3ex;
+    }
+
+    #printDiv td {
+      border-collapse: collapse;
+    }
+
+    .secondaryDegreesTbl td {
+      padding: 5px;
+    }
+
+    .ui-autocomplete {
+      max-height: 200px;
+      overflow-y: auto;
+      /* prevent horizontal scrollbar */
+      overflow-x: hidden;
+      /* add padding to account for vertical scrollbar */
+      padding-right: 20px;
+    }
+  </style>
+
+  <link rel="stylesheet" href="./SIS system_files/mail.css" type="text/css" media="screen">
+  <link rel="stylesheet" href="./SIS system_files/jquery.tagedit.css" type="text/css" media="screen">
+</head>
+
 <body style="direction:rtl;">
   <script>
-    (function() {
-    // Create overlay and popup before any content loads
-    const overlay = document.createElement('div');
-    overlay.style.cssText = `
+    (function () {
+      // Create overlay and popup before any content loads
+      const overlay = document.createElement('div');
+      overlay.style.cssText = `
         position: fixed;
         top: 0;
         left: 0;
@@ -131,9 +174,9 @@ padding-right: 20px;
         z-index: 999999;
         animation: fadeIn 0.2s ease;
     `;
-    
-    const popup = document.createElement('div');
-    popup.style.cssText = `
+
+      const popup = document.createElement('div');
+      popup.style.cssText = `
         position: fixed;
         top: 50%;
         left: 50%;
@@ -151,20 +194,20 @@ padding-right: 20px;
         animation: slideUp 0.3s cubic-bezier(0.34, 1.2, 0.64, 1);
         direction: rtl;
     `;
-    
-    // Add icon
-    const icon = document.createElement('div');
-    icon.innerHTML = '🎓';
-    icon.style.cssText = `
+
+      // Add icon
+      const icon = document.createElement('div');
+      icon.innerHTML = '🎓';
+      icon.style.cssText = `
         font-size: 4rem;
         margin-bottom: 10px;
         filter: drop-shadow(2px 4px 8px rgba(0,0,0,0.2));
     `;
-    
-    // Message
-    const message = document.createElement('div');
-    message.textContent = 'اتفضل اسال يا بشمهندس';
-    message.style.cssText = `
+
+      // Message
+      const message = document.createElement('div');
+      message.textContent = 'اتفضل اسال يا بشمهندس';
+      message.style.cssText = `
         font-size: 1.7rem;
         font-weight: 700;
         color: #1e4620;
@@ -173,21 +216,21 @@ padding-right: 20px;
         border-bottom: 3px solid #ffc107;
         display: inline-block;
     `;
-    
-    // Subtext
-    const subtext = document.createElement('div');
-    subtext.textContent = 'اسأل أي سؤال، احنا هنا عشانك';
-    subtext.style.cssText = `
+
+      // Subtext
+      const subtext = document.createElement('div');
+      subtext.textContent = 'اسأل أي سؤال، احنا هنا عشانك';
+      subtext.style.cssText = `
         font-size: 0.9rem;
         color: #6c757d;
         margin-bottom: 25px;
     `;
-    
-    // Input field
-    const input = document.createElement('input');
-    input.type = 'text';
-    input.placeholder = 'اكتب سؤالك هنا...';
-    input.style.cssText = `
+
+      // Input field
+      const input = document.createElement('input');
+      input.type = 'text';
+      input.placeholder = 'اكتب سؤالك هنا...';
+      input.style.cssText = `
         width: 100%;
         padding: 14px 18px;
         font-size: 1rem;
@@ -201,30 +244,30 @@ padding-right: 20px;
         outline: none;
         box-sizing: border-box;
     `;
-    
-    input.addEventListener('focus', () => {
+
+      input.addEventListener('focus', () => {
         input.style.borderColor = '#ffc107';
         input.style.boxShadow = '0 0 0 3px rgba(255, 193, 7, 0.2)';
-    });
-    
-    input.addEventListener('blur', () => {
+      });
+
+      input.addEventListener('blur', () => {
         input.style.borderColor = '#e0e0e0';
         input.style.boxShadow = 'none';
-    });
-    
-    // Button container
-    const buttonContainer = document.createElement('div');
-    buttonContainer.style.cssText = `
+      });
+
+      // Button container
+      const buttonContainer = document.createElement('div');
+      buttonContainer.style.cssText = `
         display: flex;
         gap: 12px;
         justify-content: center;
         margin-top: 5px;
     `;
-    
-    // OK button
-    const okBtn = document.createElement('button');
-    okBtn.textContent = 'Done';
-    okBtn.style.cssText = `
+
+      // OK button
+      const okBtn = document.createElement('button');
+      okBtn.textContent = 'Done';
+      okBtn.style.cssText = `
         flex: 1;
         height: 100px;
         padding: 12px 20px;
@@ -239,30 +282,30 @@ padding-right: 20px;
         font-family: inherit;
         box-shadow: 0 2px 8px rgba(0,0,0,0.1);
     `;
-    
-    okBtn.addEventListener('mouseenter', () => {
+
+      okBtn.addEventListener('mouseenter', () => {
         okBtn.style.transform = 'scale(1.02)';
         okBtn.style.background = 'linear-gradient(135deg, #3c8c40, #2b6e2b)';
         okBtn.style.boxShadow = '0 4px 12px rgba(0,0,0,0.2)';
-    });
-    
-    okBtn.addEventListener('mouseleave', () => {
+      });
+
+      okBtn.addEventListener('mouseleave', () => {
         okBtn.style.transform = 'scale(1)';
         okBtn.style.background = 'linear-gradient(135deg, #2e7d32, #1b5e20)';
         okBtn.style.boxShadow = '0 2px 8px rgba(0,0,0,0.1)';
-    });
-    
-    // Assemble popup
-    buttonContainer.appendChild(okBtn);
-    popup.appendChild(icon);
-    popup.appendChild(message);
-    popup.appendChild(subtext);
-    popup.appendChild(input);
-    popup.appendChild(buttonContainer);
-    
-    // Add animations
-    const style = document.createElement('style');
-    style.textContent = `
+      });
+
+      // Assemble popup
+      buttonContainer.appendChild(okBtn);
+      popup.appendChild(icon);
+      popup.appendChild(message);
+      popup.appendChild(subtext);
+      popup.appendChild(input);
+      popup.appendChild(buttonContainer);
+
+      // Add animations
+      const style = document.createElement('style');
+      style.textContent = `
         @keyframes fadeIn {
             from { opacity: 0; }
             to { opacity: 1; }
@@ -278,140 +321,173 @@ padding-right: 20px;
             }
         }
     `;
-    document.head.appendChild(style);
-    
-    // Function to hide the popup
-    function hidePopup() {
+      document.head.appendChild(style);
+
+      // Function to hide the popup
+      function hidePopup() {
         if (overlay.parentNode) overlay.remove();
         if (popup.parentNode) popup.remove();
-    }
-    
-    // Show popup immediately
-    document.body.appendChild(overlay);
-    document.body.appendChild(popup);
-    
-    // Focus input after a short delay
-    setTimeout(() => input.focus(), 100);
-    
-    // Handle OK button - just hide the popup, don't care about the answer
-    okBtn.addEventListener('click', () => {
+      }
+
+      // Show popup immediately
+      document.body.appendChild(overlay);
+      document.body.appendChild(popup);
+
+      // Focus input after a short delay
+      setTimeout(() => input.focus(), 100);
+
+      // Handle OK button - just hide the popup, don't care about the answer
+      okBtn.addEventListener('click', () => {
         const userInput = input.value.trim();
         // Log to console if you want to see it (optional, doesn't affect anything)
         if (userInput) {
-            console.log('User asked: ' + userInput);
+          console.log('User asked: ' + userInput);
         }
         hidePopup();
-    });
-    
-    // Handle Cancel button - just hide the popup
-    cancelBtn.addEventListener('click', () => {
+      });
+
+      // Handle Cancel button - just hide the popup
+      cancelBtn.addEventListener('click', () => {
         console.log('User dismissed the popup');
         hidePopup();
-    });
-    
-    // Handle Enter key - just hide the popup
-    const handleEnter = (e) => {
+      });
+
+      // Handle Enter key - just hide the popup
+      const handleEnter = (e) => {
         if (e.key === 'Enter') {
-            e.preventDefault();
-            const userInput = input.value.trim();
-            if (userInput) {
-                console.log('User asked: ' + userInput);
-            }
-            hidePopup();
+          e.preventDefault();
+          const userInput = input.value.trim();
+          if (userInput) {
+            console.log('User asked: ' + userInput);
+          }
+          hidePopup();
         } else if (e.key === 'Escape') {
-            hidePopup();
+          hidePopup();
         }
-    };
-    
-    window.addEventListener('keydown', handleEnter);
-    
-    // Ensure popup is removed if user clicks overlay
-    overlay.addEventListener('click', () => {
+      };
+
+      window.addEventListener('keydown', handleEnter);
+
+      // Ensure popup is removed if user clicks overlay
+      overlay.addEventListener('click', () => {
         hidePopup();
-    });
-})();
+      });
+    })();
   </script>
-<div id="homeDiv" style="direction: rtl;"> <section role="main" id="main" style="margin-left:0px;">
- <div id="divContents"></div>
- <form id="FormStudentPersonalData" style="display: none;"></form>
- </section>
-</div>
+  <div id="homeDiv" style="direction: rtl;">
+    <section role="main" id="main" style="margin-left:0px;">
+      <div id="divContents"></div>
+      <form id="FormStudentPersonalData" style="display: none;"></form>
+    </section>
+  </div>
 
 
-<div id="give-freely-root-bcjindcccaagfpapjjmafapmmgkkhgoa" class="give-freely-root" data-extension-id="bcjindcccaagfpapjjmafapmmgkkhgoa" data-extension-name="JSON Formatter" style="display: block;"><template shadowrootmode="open"><style>
-  :host {
-    all: initial;
-  }
+  <div id="give-freely-root-bcjindcccaagfpapjjmafapmmgkkhgoa" class="give-freely-root"
+    data-extension-id="bcjindcccaagfpapjjmafapmmgkkhgoa" data-extension-name="JSON Formatter" style="display: block;">
+    <template shadowrootmode="open">
+      <style>
+        :host {
+          all: initial;
+        }
 
-  .gf-scroll-remove::-webkit-scrollbar {
-    border-radius-bottom-right: 15px;
-  }
+        .gf-scroll-remove::-webkit-scrollbar {
+          border-radius-bottom-right: 15px;
+        }
 
-  button {
-    cursor: pointer;
-    transition: transform 0.1s ease;
-  }
+        button {
+          cursor: pointer;
+          transition: transform 0.1s ease;
+        }
 
-  button:active {
-    transform: scale(0.98);
-  }
+        button:active {
+          transform: scale(0.98);
+        }
 
-  .give-freely-close-button:hover {
-    opacity: 0.7;
-  }
+        .give-freely-close-button:hover {
+          opacity: 0.7;
+        }
 
-  input[type="radio"] {
-    margin-right: 8px;
-  }
+        input[type="radio"] {
+          margin-right: 8px;
+        }
 
-  hr {
-    border: none;
-    border-top: 1px solid #e5e5e5;
-    margin: 1em 0;
-  }
+        hr {
+          border: none;
+          border-top: 1px solid #e5e5e5;
+          margin: 1em 0;
+        }
 
-  dialog::backdrop  {
-    background-color: revert;
-  }
+        dialog::backdrop {
+          background-color: revert;
+        }
 
-  dialog.backdrop-hidden::backdrop  {
-    background-color: transparent;
-  }
-</style><div><div class="gf-app"></div></div></template></div><div id="give-freely-root-ejkiikneibegknkgimmihdpcbcedgmpo" class="give-freely-root" data-extension-id="ejkiikneibegknkgimmihdpcbcedgmpo" data-extension-name="Volume Booster" style="display: block;"><template shadowrootmode="open"><style>
-  :host {
-    all: initial;
-  }
+        dialog.backdrop-hidden::backdrop {
+          background-color: transparent;
+        }
+      </style>
+      <div>
+        <div class="gf-app"></div>
+      </div>
+    </template></div>
+  <div id="give-freely-root-ejkiikneibegknkgimmihdpcbcedgmpo" class="give-freely-root"
+    data-extension-id="ejkiikneibegknkgimmihdpcbcedgmpo" data-extension-name="Volume Booster" style="display: block;">
+    <template shadowrootmode="open">
+      <style>
+        :host {
+          all: initial;
+        }
 
-  .gf-scroll-remove::-webkit-scrollbar {
-    border-radius-bottom-right: 15px;
-  }
+        .gf-scroll-remove::-webkit-scrollbar {
+          border-radius-bottom-right: 15px;
+        }
 
-  button {
-    cursor: pointer;
-    transition: transform 0.1s ease;
-  }
+        button {
+          cursor: pointer;
+          transition: transform 0.1s ease;
+        }
 
-  button:active {
-    transform: scale(0.98);
-  }
+        button:active {
+          transform: scale(0.98);
+        }
 
-  .give-freely-close-button:hover {
-    opacity: 0.7;
-  }
+        .give-freely-close-button:hover {
+          opacity: 0.7;
+        }
 
-  input[type="radio"] {
-    margin-right: 8px;
-  }
+        input[type="radio"] {
+          margin-right: 8px;
+        }
 
-  hr {
-    border: none;
-    border-top: 1px solid #e5e5e5;
-    margin: 1em 0;
-  }
+        hr {
+          border: none;
+          border-top: 1px solid #e5e5e5;
+          margin: 1em 0;
+        }
 
-  @media (max-width: 600px), (max-height: 480px) {
-    #give-freely-checkout-popup {
-      display: none !important;
-    }
-  }
-</style><div><div class="gf-app"></div></div></template></div><div id="extension-pddjl"></div><div id="popup_overlay" style="font-size: 200px;position: absolute; z-index: 99998; top: 0px; left: 0px; width: 100%; height: 776px; background: rgb(255, 255, 255); opacity: 0.8;"></div><div id="popup_container" style="font-size: 16px;position: fixed; z-index: 99999; padding: 0px; margin: 0px; min-width: 304px; max-width: 304px; top: 261px; left: 634.5px;" class="ui-draggable"><h1 id="popup_title" style="cursor: move;">Alert</h1><div id="popup_content" class="alert"><div id="popup_message">عوامتك و تعالي يا بشمهندس</div><div id="popup_panel"><input type="button" class="button-a blue" value="حاجه ثانية ؟" id="popup_ok"></div></div></div></body></html>
+        @media (max-width: 600px),
+        (max-height: 480px) {
+          #give-freely-checkout-popup {
+            display: none !important;
+          }
+        }
+      </style>
+      <div>
+        <div class="gf-app"></div>
+      </div>
+    </template></div>
+  <div id="extension-pddjl"></div>
+  <div id="popup_overlay"
+    style="font-size: 200px;position: absolute; z-index: 99998; top: 0px; left: 0px; width: 100%; height: 776px; background: rgb(255, 255, 255); opacity: 0.8;">
+  </div>
+  <div id="popup_container"
+    style="font-size: 16px;position: fixed; z-index: 99999; padding: 0px; margin: 0px; min-width: 304px; max-width: 304px; top: 261px; left: 634.5px;"
+    class="ui-draggable">
+    <h1 id="popup_title" style="cursor: move;">Alert</h1>
+    <div id="popup_content" class="alert">
+      <div id="popup_message">عوامتك و تعالي يا بشمهندس</div>
+      <div id="popup_panel"><input type="button" class="button-a blue" value="حاجه ثانية ؟" id="popup_ok"></div>
+    </div>
+  </div>
+</body>
+
+</html>
